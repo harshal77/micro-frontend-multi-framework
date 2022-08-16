@@ -62,7 +62,7 @@
 
 4. Switch into the project ``react-mfe`` and open the generated configuration file ``webpack.config.js``. It contains the module federation configuration. In the exposes object you have to add whichever module you have to expose or access other MF's ex):
 
-    ```javascript
+    ```
     const { shareAll, withModuleFederationPlugin } = require('@angular-architects/module-federation/webpack');
     const CopyWebpackPlugin = require("copy-webpack-plugin");
 
@@ -94,16 +94,16 @@
     ```
 4.1) Need to add some extra webpack packages for react.
 
-```
-    npm install --save-dev webpack webpack-cli html-webpack-plugin webpack-dev-server babel-loader
-
+     ```
+     npm install --save-dev webpack webpack-cli html-webpack-plugin webpack-dev-server babel-loader
     ```
+    
 
 5. We can access angular-mfe module two ways in container applictaion.
 
   
 5.1) Switch into the ``angular-mfe`` app and open the file ``webpack.config.js``
-    ```javascript
+    ```
     new ModuleFederationPlugin({
         library: { type: "module" },
 
@@ -128,7 +128,7 @@
 
 5.2) Switch into the ``Container`` app and open the file ``routing file``
 
-    ```javascript
+    ```
     {
     path: 'mfe-1',
     loadChildren: () =>
