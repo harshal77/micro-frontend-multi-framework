@@ -1,4 +1,4 @@
-# micro-frontend-multi-framework
+# Micro frontend with Multi framework
 **Important**: This code is written in Angular CLI 14** and higher.I have created a simple applictaion with basic UI. In this appilication I have created a container, MF1 -> Micro frontend one (access app module) and MFE2 -> Second Micro frontend created in react with one app component and access that in container module.
 
 ##Part 1: Steps to run
