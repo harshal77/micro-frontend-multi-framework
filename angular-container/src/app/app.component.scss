@@ -1,0 +1,19 @@
+.parent {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    .box {
+        background-color: #EEEEEE;
+        padding: 20px;
+        margin: 10px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    
+    
+    .main {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+}
