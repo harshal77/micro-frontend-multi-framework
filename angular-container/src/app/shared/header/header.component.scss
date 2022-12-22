@@ -1,0 +1,7 @@
+#search-bar {
+  background-color: transparent;
+  border-style: unset;
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,56 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/**/*.{js,ts,jsx,tsx,html,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,html,mdx}"
+  ],
+  theme: {
+    screens: {
+      sm: { min: "200px", max: "767px" },
+      md: { min: "768px", max: "991px" },
+    },
+    extend: {
+      colors: {
+        indigo_900_7f: "#1133847f",
+        white_A700_b2: "#ffffffb2",
+        red_700: "#d13329",
+        blue_A700: "#2d60ff",
+        green_600: "#359766",
+        gray_300_cc: "#e6e3e7cc",
+        gray_103: "#f4f4f6",
+        gray_104: "#f2f3f7",
+        indigo_50: "#e6eff5",
+        gray_900: "#0a0f21",
+        gray_101: "#f3f3f5",
+        gray_300: "#e3e4e8",
+        gray_102: "#f3f4f5",
+        gray_100: "#f4f6f9",
+        indigo_300: "#7a8fd0",
+        bluegray_900: "#182651",
+        bluegray_801: "#333b69",
+        bluegray_800: "#343c6a",
+        indigo_301: "#7c8ecf",
+        indigo_100: "#c6cfeb",
+        bluegray_600: "#505887",
+        indigo_200: "#8e9ed6",
+        indigo_101: "#b3bfe4",
+        bluegray_400: "#888ea2",
+        white_A700_26: "#ffffff26",
+        indigo_900: "#263972",
+        black_900_19: "#00000019",
+        indigo_700: "#2943a1",
+        indigo_601: "#3b54aa",
+        white_A700: "#ffffff",
+        indigo_500: "#425ebd",
+        indigo_600: "#314ca3",
+      },
+      borderRadius: { radius25: "25px", radius50: "50%", radius275: "27.5px" },
+      boxShadow: { bs: "4px 4px  18px -2px #e6e3e7cc" },
+      backgroundImage: {
+        gradient: "linear-gradient(180deg ,#ffffff26,#ffffff26)",
+      },
+      fontFamily: { inter: "Inter", lato: "Lato" },
+    },
+  },
+  plugins: [],
+}
